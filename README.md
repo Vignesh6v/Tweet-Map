@@ -23,7 +23,7 @@ http://docs.tweepy.org/en/v3.4.0/streaming_how_to.html
 
 2) AWS - Elastic Search
 ```bash
-https://search-tweettesting-mrejtfputdpvmqrkiay7um73yu.us-west-1.es.amazonaws.com/twitter/_search
+https://us-west-1.console.aws.amazon.com/es/home?region=us-west-1
 ```
 
 3) AWS - Elastic BeanStalk
