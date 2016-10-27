@@ -40,7 +40,7 @@ def search():
 		verify_certs=True,
 		connection_class=RequestsHttpConnection
 	)
-	res = es.search(index="twitter", body={"query": {"wildcard": {"text":'*'+search_key+'*'}}})
+	res = es.search(index="twitter", body={"query": {"wildcard": {"text":'*'+search_key+'*'}}},size=400)
 	hits = res['hits']['hits']
 	if hits:
 		for hit in hits:
