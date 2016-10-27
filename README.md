@@ -1,5 +1,5 @@
 # Tweet-Map
-A Simple Python Flask Application to display to live streaming Tweets based on the keywords. 
+A Simple Python Flask Application to display the live streaming Tweets based on the keywords. 
 
 
 Requirements:
