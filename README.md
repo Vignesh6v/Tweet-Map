@@ -1,3 +1,5 @@
+<img src = "http://www.techspot.com/images2/downloads/topdownload/2014/05/twitter.jpg" align = "right">
+
 # Tweet-Map
 Leveraged tweet data using the twitter API and displayed the same on a HeatMap using the Google Maps API while utilizing the ElasticSearch changefeed property to stream live data for a particular keyword thus reducing the overhead of polling the database constantly for new tweet data.
 
