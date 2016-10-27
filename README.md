@@ -1,19 +1,16 @@
 # Tweet-Map
-A Simple Python Flask Application to display the live streaming Tweets based on the keywords. 
+Leveraged tweet data using the twitter API and displayed the same on a HeatMap using the Google Maps API while utilizing the ElasticSearch changefeed property to stream live data for a particular keyword thus reducing the overhead of polling the database constantly for new tweet data.
 
-
-Requirements:
-=======
-* boto3
-* elasticsearch
-* Flask
-* requests_aws4auth
 
 Dependencies:
 =======
+* Boto3
+* Elasticsearch
+* Flask
+* requests_aws4auth
 * Tweepy
-* ElasticSearch 
-* ElasticBeanStalk
+* Google Map API
+
 
 API Source:
 =======
