@@ -37,11 +37,10 @@ class StdOutListener(StreamListener):
                 temp["name"]= decoded['user']['screen_name']
                 temp["latitude"]= str(decoded['coordinates']['coordinates'][1])
                 temp["longitude"]= str(decoded['coordinates']['coordinates'][0])
-                temp["search_key"]= 'Love'
                 final = json.dumps(temp)
 
                 host = config.host
-                awsauth = AWS4Auth(config.aws_access_token, config.aws_access_token_secret, "us-west-1", 'es')
+                awsauth = AWS4Auth(config.aws_access_token, config.aws_access_token_secret, "us-west-2", 'es')
                 es = Elasticsearch(
                     hosts=[{'host': host, 'port': 443}],
                     http_auth=awsauth,
